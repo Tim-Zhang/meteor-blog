@@ -1,0 +1,156 @@
+.github {
+  font: 13.34px helvetica, arial, freesans, clean, sans-serif;
+  color: black;
+  line-height: 1.4em;
+}
+.github * {
+  margin: 0;
+  padding: 0;
+}
+.github p {
+  margin: 1em 0;
+  line-height: 1.5em;
+}
+.github table {
+  font-size: inherit;
+  font: 100%;
+  margin: 1em;
+}
+.github table th {
+  border-bottom: 1px solid #bbb;
+  padding: .2em 1em;
+}
+.github table td {
+  border-bottom: 1px solid #ddd;
+  padding: .2em 1em;
+}
+.github input[type=text],
+.github input[type=password],
+.github input[type=image],
+.github textarea {
+  font: 99% helvetica, arial, freesans, sans-serif;
+}
+.github select,
+.github option {
+  padding: 0 .25em;
+}
+.github optgroup {
+  margin-top: .5em;
+}
+.github pre,
+.github code {
+  font: 12px Monaco, "Courier New", "DejaVu Sans Mono", "Bitstream Vera Sans Mono", monospace;
+}
+.github pre {
+  margin: 1em 0;
+  font-size: 12px;
+  background-color: #eee;
+  border: 1px solid #ddd;
+  padding: 5px;
+  line-height: 1.5em;
+  color: #444;
+  overflow: auto;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.07) 0 1px 2px inset;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+}
+.github pre code {
+  padding: 0;
+  font-size: 12px;
+  background-color: #eee;
+  border: none;
+}
+.github code {
+  font-size: 12px;
+  background-color: #f8f8ff;
+  color: #444;
+  padding: 0 .2em;
+  border: 1px solid #dedede;
+}
+.github img {
+  border: 0;
+  max-width: 100%;
+}
+.github abbr {
+  border-bottom: none;
+}
+.github a {
+  color: #4183c4;
+  text-decoration: none;
+}
+.github a:hover {
+  text-decoration: underline;
+}
+.github a code,
+.github a:link code,
+.github a:visited code {
+  color: #4183c4;
+}
+.github h2,
+.github h3 {
+  margin: 1em 0;
+}
+.github h1,
+.github h2,
+.github h3,
+.github h4,
+.github h5,
+.github h6 {
+  border: 0;
+}
+.github h1 {
+  font-size: 170%;
+  border-top: 4px solid #aaa;
+  padding-top: .5em;
+  margin-top: 1.5em;
+}
+.github h1:first-child {
+  margin-top: 0;
+  padding-top: .25em;
+  border-top: none;
+}
+.github h2 {
+  font-size: 150%;
+  margin-top: 1.5em;
+  border-top: 4px solid #e0e0e0;
+  padding-top: .5em;
+}
+.github h3 {
+  margin-top: 1em;
+}
+.github hr {
+  border: 1px solid #ddd;
+}
+.github ul {
+  margin: 1em 0 1em 2em;
+}
+.github ol {
+  margin: 1em 0 1em 2em;
+}
+.github ul li,
+.github ol li {
+  margin-top: .5em;
+  margin-bottom: .5em;
+}
+.github ul ul,
+.github ul ol,
+.github ol ol,
+.github ol ul {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.github blockquote {
+  margin: 1em 0;
+  border-left: 5px solid #ddd;
+  padding-left: .6em;
+  color: #555;
+}
+.github dt {
+  font-weight: bold;
+  margin-left: 1em;
+}
+.github dd {
+  margin-left: 2em;
+  margin-bottom: 1em;
+}

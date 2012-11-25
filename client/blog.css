@@ -1,1 +1,11 @@
-/* CSS declarations go here */
+.edit_doc_textarea {
+  width: 100%;
+  min-height: 500px;
+  font-family: Monaco,"Courier New","DejaVu Sans Mono","Bitstream Vera Sans Mono",monospace;
+}
+.doc_preview {
+  box-shadow:none;
+  background:none;
+  border-color:white;
+
+}

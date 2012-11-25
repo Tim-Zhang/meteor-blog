@@ -55,7 +55,6 @@ table {
   border-collapse: collapse;
 }
 ul {
-  list-style: none;
 }
 q:before,
 q:after,
@@ -737,8 +736,8 @@ blockquote:after {
   display: block;
   height: 11px;
   width: 11px;
-  background: url('/img/icon/feed-icons.$6973.png') no-repeat;
-  _background: url('/img/icon/feed-icons-ie.$5234.png') no-repeat;
+  background: url('/img/icon/feed-icons.png') no-repeat;
+  _background: url('/img/icon/feed-icons-ie.png') no-repeat;
   background-position: -330px -30px;
 }
 .skin-dialog-willwhite-dragable .ui-dialog-head .skin-button-layerclose:hover,
@@ -876,7 +875,7 @@ a.x-close {
   display: block;
   width: 11px;
   height: 11px;
-  background: url(/img/icon/x-close.$108.png) no-repeat 0 0;
+  background: url(/img/icon/x-close.png) no-repeat 0 0;
   text-indent: -9999px;
   outline: none;
   cursor: pointer;
@@ -889,7 +888,7 @@ a.a-button {
   display: inline-block;
   height: 26px;
   padding-left: 10px;
-  background: url(/img/button/a-button.$262.png) no-repeat 0 0;
+  background: url(/img/button/a-button.png) no-repeat 0 0;
   line-height: 26px;
 }
 a.a-button span {
@@ -897,7 +896,7 @@ a.a-button span {
   font-weight: normal;
   height: 26px;
   padding: 0 10px 0 0;
-  background: url(/img/button/a-button.$262.png) no-repeat right 0;
+  background: url(/img/button/a-button.png) no-repeat right 0;
   color: #5F5C5C;
   margin-right: -1px;
 }
@@ -918,7 +917,7 @@ a.a-button-1 {
   display: inline-block;
   color: #000;
   border: 1px solid #C0C4C7;
-  background: url(/img/button/a-button.$262.png) repeat-x 0 -52px;
+  background: url(/img/button/a-button.png) repeat-x 0 -52px;
   padding: 0 10px;
 }
 a.a-button-1:hover {
@@ -934,7 +933,7 @@ span.green-button {
   display: block;
   height: 47px;
   line-height: 45px;
-  background: url(/img/button/green.$90.png) no-repeat right;
+  background: url(/img/button/green.png) no-repeat right;
   padding-right: 10px;
   cursor: pointer;
   font-family: "Helvetica Neue", "Luxi Sans", "DejaVu Sans", 'Microsoft Yahei', Tahoma;
@@ -945,7 +944,7 @@ a.green-button span,
 span.green-button span {
   display: block;
   height: 47px;
-  background: url(/img/button/green.$90.png) no-repeat;
+  background: url(/img/button/green.png) no-repeat;
   padding: 0 20px 0 30px;
   margin-right: -1px;
 }
@@ -981,7 +980,7 @@ a.b-button {
   display: inline-block;
   height: 22px;
   padding-left: 5px;
-  background: url(/img/button/a-button.$262.png) no-repeat 0 -99px;
+  background: url(/img/button/a-button.png) no-repeat 0 -99px;
   line-height: 22px;
 }
 a.b-button span {
@@ -989,7 +988,7 @@ a.b-button span {
   font-weight: normal;
   height: 22px;
   padding: 0 10px 0 5px;
-  background: url(/img/button/a-button.$262.png) no-repeat right -99px;
+  background: url(/img/button/a-button.png) no-repeat right -99px;
   color: #5F5C5C;
   margin-right: -1px;
 }
@@ -1005,7 +1004,7 @@ span.round-button {
   display: inline-block;
   height: 26px;
   line-height: 26px;
-  background: url(/img/button/round.$321.png) no-repeat 0 0;
+  background: url(/img/button/round.png) no-repeat 0 0;
   padding-left: 20px;
   font-size: 14px;
   color: #fff !important;
@@ -1018,7 +1017,7 @@ span.round-button span {
   _margin-right: 0;
   height: 26px;
   line-height: 26px;
-  background: url(/img/button/round.$321.png) no-repeat right 0;
+  background: url(/img/button/round.png) no-repeat right 0;
   padding-right: 20px;
 }
 a.round-button span:after,
@@ -1056,7 +1055,7 @@ span.simple-gray-button {
 /* gray button */
 .gray-button {
   border: none;
-  background: url(/img/button/gray-button.$5106.png) repeat-x 0 0;
+  background: url(/img/button/gray-button.png) repeat-x 0 0;
   height: 36px;
   border: 1px solid #787878;
   font-size: 14px;
@@ -1079,7 +1078,7 @@ span.simple-gray-button {
 /* gray button */
 .deep-blue-button {
   border: none;
-  background: url(/img/button/deep-blue.$1311.png) repeat-x 0 0;
+  background: url(/img/button/deep-blue.png) repeat-x 0 0;
   height: 28px;
   border: 1px solid #002C46;
   font-size: 14px;
@@ -1139,7 +1138,7 @@ textarea.shadow-input-text {
   line-height: 20px;
   border: 1px solid #AEBACD;
   padding: 4px;
-  background: url(/img/bg/input-text.$53.png) no-repeat;
+  background: url(/img/bg/input-text.png) no-repeat;
 }
 input.input-text,
 input.shadow-input-text {
@@ -1163,13 +1162,13 @@ select.global-select {
   border: 1px solid #AEBACD;
   font-size: 14px;
   padding: 10px 4px;
-  background: url(/img/bg/input-text.$53.png) no-repeat;
+  background: url(/img/bg/input-text.png) no-repeat;
 }
 /* button */
 .input-button,
 .blue-button {
   border: none;
-  background: url(/img/button/blue-button.$5106.png) repeat-x 0 0;
+  background: url(/img/button/blue-button.png) repeat-x 0 0;
   height: 36px;
   border: 1px solid #006DAB;
   font-size: 14px;
@@ -1214,29 +1213,29 @@ select.global-select {
 .dd-dialog-td-lt {
   width: 10px;
   height: 10px;
-  background: url(/img/bg/dialog.$375.png) no-repeat;
+  background: url(/img/bg/dialog.png) no-repeat;
   _background-image: none;
-  _filter: progid:dximagetransform.microsoft.alphaimageloader(src='http://s.libdd.com/img/bg/dialog-lt.$376.png', sizingMethod='crop');
+  _filter: progid:dximagetransform.microsoft.alphaimageloader(src='http://s.libdd.com/img/bg/dialog-lt.png', sizingMethod='crop');
 }
 .dd-dialog-td-ct {
   height: 10px;
-  background: url(/img/bg/dialog.$375.png) repeat-x 0 -10px;
+  background: url(/img/bg/dialog.png) repeat-x 0 -10px;
   _background-image: none;
-  _filter: progid:dximagetransform.microsoft.alphaimageloader(src='http://s.libdd.com/img/bg/dialog-cc.$376.png', sizingMethod='scale');
+  _filter: progid:dximagetransform.microsoft.alphaimageloader(src='http://s.libdd.com/img/bg/dialog-cc.png', sizingMethod='scale');
 }
 .dd-dialog-td-rt {
   width: 10px;
   height: 10px;
-  background: url(/img/bg/dialog.$375.png) no-repeat -20px 0;
+  background: url(/img/bg/dialog.png) no-repeat -20px 0;
   _background-image: none;
-  _filter: progid:dximagetransform.microsoft.alphaimageloader(src='http://s.libdd.com/img/bg/dialog-rt.$376.png', sizingMethod='crop');
+  _filter: progid:dximagetransform.microsoft.alphaimageloader(src='http://s.libdd.com/img/bg/dialog-rt.png', sizingMethod='crop');
 }
 .dd-dialog-td-lc {
   width: 10px;
   height: 100%;
-  background: url(/img/bg/dialog.$375.png) repeat-y -10px 0;
+  background: url(/img/bg/dialog.png) repeat-y -10px 0;
   _background-image: none;
-  _filter: progid:dximagetransform.microsoft.alphaimageloader(src='http://s.libdd.com/img/bg/dialog-cc.$376.png', sizingMethod='scale');
+  _filter: progid:dximagetransform.microsoft.alphaimageloader(src='http://s.libdd.com/img/bg/dialog-cc.png', sizingMethod='scale');
 }
 .dd-dialog-td-cc {
   background: #fff;
@@ -1244,29 +1243,29 @@ select.global-select {
 .dd-dialog-td-rc {
   width: 10px;
   height: 100%;
-  background: url(/img/bg/dialog.$375.png) repeat-y -10px 0;
+  background: url(/img/bg/dialog.png) repeat-y -10px 0;
   _background-image: none;
-  _filter: progid:dximagetransform.microsoft.alphaimageloader(src='http://s.libdd.com/img/bg/dialog-cc.$376.png', sizingMethod='scale');
+  _filter: progid:dximagetransform.microsoft.alphaimageloader(src='http://s.libdd.com/img/bg/dialog-cc.png', sizingMethod='scale');
 }
 .dd-dialog-td-lb {
   width: 10px;
   height: 10px;
-  background: url(/img/bg/dialog.$375.png) no-repeat 0 -20px;
+  background: url(/img/bg/dialog.png) no-repeat 0 -20px;
   _background-image: none;
-  _filter: progid:dximagetransform.microsoft.alphaimageloader(src='http://s.libdd.com/img/bg/dialog-lb.$376.png', sizingMethod='crop');
+  _filter: progid:dximagetransform.microsoft.alphaimageloader(src='http://s.libdd.com/img/bg/dialog-lb.png', sizingMethod='crop');
 }
 .dd-dialog-td-cb {
   height: 10px;
-  background: url(/img/bg/dialog.$375.png) repeat-x 0 -10px;
+  background: url(/img/bg/dialog.png) repeat-x 0 -10px;
   _background-image: none;
-  _filter: progid:dximagetransform.microsoft.alphaimageloader(src='http://s.libdd.com/img/bg/dialog-cc.$376.png', sizingMethod='scale');
+  _filter: progid:dximagetransform.microsoft.alphaimageloader(src='http://s.libdd.com/img/bg/dialog-cc.png', sizingMethod='scale');
 }
 .dd-dialog-td-rb {
   width: 10px;
   height: 10px;
-  background: url(/img/bg/dialog.$375.png) no-repeat -20px -20px;
+  background: url(/img/bg/dialog.png) no-repeat -20px -20px;
   _background-image: none;
-  _filter: progid:dximagetransform.microsoft.alphaimageloader(src='http://s.libdd.com/img/bg/dialog-rb.$376.png', sizingMethod='crop');
+  _filter: progid:dximagetransform.microsoft.alphaimageloader(src='http://s.libdd.com/img/bg/dialog-rb.png', sizingMethod='crop');
 }
 .dd-dialog-wrap {
   padding: 15px 0;
@@ -1282,7 +1281,7 @@ select.global-select {
   display: block;
   width: 18px;
   height: 18px;
-  background: url(/img/icon/x-close.$108.png) no-repeat 0 -22px;
+  background: url(/img/icon/x-close.png) no-repeat 0 -22px;
   text-indent: -9999px;
   outline: none;
 }
@@ -1345,14 +1344,14 @@ select.global-select {
   line-height: 36px;
   border-bottom: 1px solid #C6C8CB;
   color: #444;
-  background: url(/img/bg/sidemenu-item.$5106.png) repeat;
+  background: url(/img/bg/sidemenu-item.png) repeat;
   overflow: hidden;
 }
 .sidemenu li a .aside-icon {
   float: left;
   width: 36px;
   height: 36px;
-  background-image: url(/img/icon/sidemenu.$6372.png);
+  background-image: url(/img/icon/sidemenu.png);
   background-repeat: no-repeat;
 }
 .sidemenu li a:hover {
@@ -1434,7 +1433,7 @@ select.global-select {
 .sidemenu li.sub a {
   height: 29px;
   line-height: 29px;
-  background: url(/img/bg/sidemenu-sub-item.$5106.png) repeat;
+  background: url(/img/bg/sidemenu-sub-item.png) repeat;
   color: #A5A6A8;
   font-size: 12px;
 }
@@ -1764,7 +1763,7 @@ select.global-select {
   width: 20px;
   height: 20px;
   float: right;
-  background: url(/img/icon/sidemenu.$6372.png) no-repeat -167px 2px;
+  background: url(/img/icon/sidemenu.png) no-repeat -167px 2px;
   margin: 8px 7px 0 0;
   text-indent: -9999px;
   outline: none;
@@ -1915,7 +1914,7 @@ select.global-select {
 #rec-friend-list .aside-editor-title s:hover {
   color: #444;
 }
-html {
+html ,body{
   background: url(/img/bg/htmlbg.png) repeat;
 }
 div#header-holder {
@@ -1933,7 +1932,7 @@ div#header a {
   outline: none;
 }
 div#content-holder {
-  background: url(/img/bg/content-holder.$5106.png) repeat-x;
+  background: url(/img/bg/content-holder.png) repeat-x;
   padding-bottom: 20px;
   padding-top: 20px;
 }
@@ -1960,7 +1959,7 @@ div#logo-holder {
   text-indent: -9999px;
   margin-left: -4px;
   outline: none;
-  background: url(/img/logo/logo-0518.$6396.png) no-repeat 0 18px;
+  background: url(/img/logo/logo-0518.png) no-repeat 0 18px;
 }
 #logo a:active {
   position: relative;
@@ -1994,7 +1993,7 @@ div#logo-holder {
 .startpage #what-is-diandian a {
   color: #A0B3C0;
   padding-left: 22px;
-  background: url(/img/icon/split.$6883.png) 0 -23px no-repeat scroll;
+  background: url(/img/icon/split.png) 0 -23px no-repeat scroll;
 }
 .startpage #what-is-diandian .dian-transfer:link,
 .startpage #what-is-diandian .dian-transfer:visited,
@@ -2015,14 +2014,14 @@ div#logo-holder {
   color: #fff;
 }
 .startpage #what-is-diandian span {
-  background: url(/img/icon/split.$6883.png) 0 3px no-repeat scroll;
+  background: url(/img/icon/split.png) 0 3px no-repeat scroll;
   margin: 0 7px;
 }
 .header-pop-notice {
   font-family: Arial;
   position: absolute;
   display: block;
-  background: url(/img/icon/header.$5765.png) no-repeat 0 -250px;
+  background: url(/img/icon/header.png) no-repeat 0 -250px;
   height: 18px;
   line-height: 18px;
   text-align: center;
@@ -2151,7 +2150,7 @@ ul#nav-blog-list li.active .nav-blog-name {
 #nav-blog-action {
   float: left;
   position: relative;
-  padding-top: 10px;
+  padding-left:20px;
 }
 #nav-blog-action a {
   float: left;
@@ -2159,10 +2158,10 @@ ul#nav-blog-list li.active .nav-blog-name {
   height: 20px;
   text-indent: -9999px;
   outline: none;
-  background-image: url(/img/icon/header.$5765.png);
-  _background-image: url(/img/icon/header-ie.$5765.png);
+  background-image: url(/img/icon/header.png);
+  _background-image: url(/img/icon/header-ie.png);
   background-repeat: no-repeat;
-  margin: 21px 10px 0 0;
+  margin: 38px 10px 0 0;
 }
 #nav-blog-action .nav-more-blog {
   background-position: 3px -15px;
@@ -2194,7 +2193,7 @@ ul#nav-blog-list li.active .nav-blog-name {
   top: -7px;
   left: 20px;
   z-index: 100;
-  background: url(/img/icon/header.$5765.png) no-repeat 0 -320px;
+  background: url(/img/icon/header.png) no-repeat 0 -320px;
 }
 .pop-menu-list {
   background: #fff;
@@ -2402,8 +2401,8 @@ ul#nav-blog-list li.active .nav-blog-name {
   width: 250px;
 }
 #pop-blog-list-holder .blog-move-icon {
-  background: url(/img/icon/header.$5765.png) no-repeat 8px -148px;
-  _background: url(/img/icon/header-ie.$5765.png) no-repeat 8px -148px;
+  background: url(/img/icon/header.png) no-repeat 8px -148px;
+  _background: url(/img/icon/header-ie.png) no-repeat 8px -148px;
   cursor: move;
 }
 #pop-blog-list-holder .blog-move-icon:hover {
@@ -2635,7 +2634,7 @@ div#aside #rec-tag-list .aside-follow-rec-tag {
   border: 0;
   display: block;
   text-indent: -9999px;
-  background: url(/img/icon/sidemenu.$6372.png) no-repeat -1143px 8px;
+  background: url(/img/icon/sidemenu.png) no-repeat -1143px 8px;
 }
 #side-search-holder.focus #side-go-search {
   background-position: -1143px -41px;
@@ -2647,7 +2646,7 @@ div#aside #rec-tag-list .aside-follow-rec-tag {
   position: absolute;
   top: 10px;
   right: 10px;
-  background: url(/img/icon/sidemenu.$6372.png) no-repeat -1181px -1px;
+  background: url(/img/icon/sidemenu.png) no-repeat -1181px -1px;
 }
 #side-search-show-options:hover,
 #side-search-show-options.active {
@@ -2662,11 +2661,11 @@ div#aside #rec-tag-list .aside-follow-rec-tag {
   left: 65px;
 }
 #side-search-options .on .pop-menu-extra {
-  background: url(/img/icon/sidemenu.$6372.png) no-repeat -1170px -95px;
+  background: url(/img/icon/sidemenu.png) no-repeat -1170px -95px;
 }
 #side-search-tip {
-  background: url(/img/element/side-search-tip.$2861.png) no-repeat;
-  _background: url(/img/element/side-search-tip-ie6.$2861.png) no-repeat;
+  background: url(/img/element/side-search-tip.png) no-repeat;
+  _background: url(/img/element/side-search-tip-ie6.png) no-repeat;
   width: 250px;
   height: 93px;
   position: absolute;
@@ -2745,8 +2744,8 @@ div#aside #rec-tag-list .aside-follow-rec-tag {
   height: 20px;
   display: block;
   text-indent: -999px;
-  background-image: url('/img/icon/header.$5765.png');
-  _background-image: url('/img/icon/header-ie.$5765.png');
+  background-image: url('/img/icon/header.png');
+  _background-image: url('/img/icon/header-ie.png');
   background-repeat: no-repeat;
 }
 .misc-action a.discovery {
@@ -2823,7 +2822,7 @@ div#aside #rec-tag-list .aside-follow-rec-tag {
   width: 133px;
   height: 31px;
   line-height: 31px;
-  background: url(/img/element/no-login-search.$5554.png) no-repeat;
+  background: url(/img/element/no-login-search.png) no-repeat;
   float: right;
   margin: 22px 0 0 22px;
   position: relative;
@@ -2835,7 +2834,7 @@ div#aside #rec-tag-list .aside-follow-rec-tag {
   position: absolute;
   width: 31px;
   height: 31px;
-  background: url(/img/element/no-login-search.$5554.png) no-repeat 10px -45px;
+  background: url(/img/element/no-login-search.png) no-repeat 10px -45px;
   left: 0;
   top: 0;
   border: 0 none;
@@ -2859,7 +2858,7 @@ div#aside #rec-tag-list .aside-follow-rec-tag {
   margin-top: 38px;
 }
 #reg-login-toolbar a.login-btn {
-  background: url(/img/icon/split.$6883.png) 0 -153px no-repeat scroll;
+  background: url(/img/icon/split.png) 0 -153px no-repeat scroll;
   padding-left: 22px;
 }
 #reg-login-toolbar a:link,
@@ -2876,7 +2875,7 @@ div#aside #rec-tag-list .aside-follow-rec-tag {
 }
 #reg-login-toolbar span {
   float: right;
-  background: url(/img/icon/split.$6883.png) 0 3px no-repeat scroll;
+  background: url(/img/icon/split.png) 0 3px no-repeat scroll;
   margin: 0 14px;
   display: block;
   text-indent: -9999px;
@@ -2928,7 +2927,7 @@ div#aside #rec-tag-list .aside-follow-rec-tag {
 .music-player .play,
 .music-player .pause,
 .music-player .playing-i {
-  background: url(/img/mplayer/mplayer-v2.$5106.png) no-repeat 0 0;
+  background: url(/img/mplayer/mplayer-v2.png) no-repeat 0 0;
 }
 .music-player {
   width: 265px;
@@ -3118,7 +3117,7 @@ div#aside #rec-tag-list .aside-follow-rec-tag {
   width: 21px;
   height: 31px;
   text-indent: -9999px;
-  background: url(/img/icon/feed-icons.$6973.png) -250px -151px no-repeat scroll;
+  background: url(/img/icon/feed-icons.png) -250px -151px no-repeat scroll;
 }
 .feed .blog-menu {
   position: absolute;
@@ -3226,11 +3225,11 @@ div#aside #rec-tag-list .aside-follow-rec-tag {
   position: absolute;
   left: -11px;
   top: 25px;
-  background: url(/img/icon/feed-icons.$6973.png) no-repeat 0 -150px;
+  background: url(/img/icon/feed-icons.png) no-repeat 0 -150px;
 }
 .feed .pop-content {
-  background: url('/img/bg/feed-bg-sprites.$5106.png') -1200px 0 repeat-y;
-  _background: url('/img/bg/feed-bg-sprites-ie.$5106.png') -1200px 0 repeat-y;
+  background: url('/img/bg/feed-bg-sprites.png') -1200px 0 repeat-y;
+  _background: url('/img/bg/feed-bg-sprites-ie.png') -1200px 0 repeat-y;
 }
 .feed .link-to-post-holder {
   position: absolute;
@@ -3245,14 +3244,14 @@ div#aside #rec-tag-list .aside-follow-rec-tag {
   position: relative;
   width: 25px;
   height: 26px;
-  background: url(/img/bg/content-holder.$5106.png) repeat-x 0 -9999px;
+  background: url(/img/bg/content-holder.png) repeat-x 0 -9999px;
 }
 .feed a.link-to-post {
   display: block;
   text-indent: -9999px;
   outline: none;
-  background: url("/img/icon/feed-icons.$6973.png") no-repeat 0 -90px;
-  _background: url("/img/icon/feed-icons-ie.$5234.png") no-repeat 0 -90px;
+  background: url("/img/icon/feed-icons.png") no-repeat 0 -90px;
+  _background: url("/img/icon/feed-icons-ie.png") no-repeat 0 -90px;
   width: 30px;
   height: 35px;
   position: absolute;
@@ -3567,8 +3566,8 @@ html.hasFontSmoothing-false .feed-bd .feed-microtext-content {
   line-height: 18px;
 }
 .feed-bd .feed-fav {
-  background: url("/img/icon/feed-icons.$6973.png") no-repeat scroll -59px -27px;
-  _background: url("/img/icon/feed-icons-ie.$5234.png") no-repeat scroll -59px -27px;
+  background: url("/img/icon/feed-icons.png") no-repeat scroll -59px -27px;
+  _background: url("/img/icon/feed-icons-ie.png") no-repeat scroll -59px -27px;
   text-indent: -9999em;
   width: 16px;
   height: 16px;
@@ -3595,7 +3594,7 @@ html.hasFontSmoothing-false .feed-bd .feed-microtext-content {
   display: inline-block;
   height: 11px;
   width: 12px;
-  background: url(/img/app/editor-control.$6372.png) 0 2px no-repeat scroll;
+  background: url(/img/app/editor-control.png) 0 2px no-repeat scroll;
 }
 .feed a.editor-ex-slide:hover {
   background-position: 0 -38px;
@@ -3644,7 +3643,7 @@ html.hasFontSmoothing-false .feed-bd .feed-microtext-content {
   width: 32px;
   text-indent: -9999px;
   height: 30px;
-  background: url(/img/icon/editor-promote.$6645.png) 0 -71px no-repeat scroll;
+  background: url(/img/icon/editor-promote.png) 0 -71px no-repeat scroll;
   display: inline-block;
 }
 .feed a.editor-promote-cancel {
@@ -3655,7 +3654,7 @@ html.hasFontSmoothing-false .feed-bd .feed-microtext-content {
   text-indent: -9999px;
   height: 30px;
   display: inline-block;
-  background: url(/img/icon/editor-promote.$6645.png) 0 -4px no-repeat scroll;
+  background: url(/img/icon/editor-promote.png) 0 -4px no-repeat scroll;
 }
 .feed .editor-control-panel {
   position: absolute;
@@ -3681,8 +3680,8 @@ html.hasFontSmoothing-false .feed-bd .feed-microtext-content {
   height: 30px;
   text-indent: -9999px;
   margin-left: 10px;
-  background: url(/img/icon/feed-icons.$6973.png);
-  _background-image: url(/img/icon/feed-icons-ie.$5234.png);
+  background: url(/img/icon/feed-icons.png);
+  _background-image: url(/img/icon/feed-icons-ie.png);
 }
 .feed .post-flag-panel .post-top-flag {
   background-position: -150px -153px;
@@ -3717,8 +3716,8 @@ html.hasFontSmoothing-false .feed-bd .feed-microtext-content {
 .feed-comment,
 .repost-feed,
 .feed-notes {
-  background: url('/img/bg/feed-bg-sprites.$5106.png') -2400px 0 repeat-y;
-  _background: url('/img/bg/feed-bg-sprites-ie.$5106.png') -2400px 0 repeat-y;
+  background: url('/img/bg/feed-bg-sprites.png') -2400px 0 repeat-y;
+  _background: url('/img/bg/feed-bg-sprites-ie.png') -2400px 0 repeat-y;
   margin: 0 1px;
   padding-top: 15px;
   position: relative;
@@ -3731,7 +3730,7 @@ html.hasFontSmoothing-false .feed-bd .feed-microtext-content {
   top: -3px;
   left: 0;
   z-index: 1;
-  background: url('/img/element/feed-ft-triangle.$5106.png') no-repeat;
+  background: url('/img/element/feed-ft-triangle.png') no-repeat;
 }
 .repost-feed .repost-triangle {
   left: 470px;
@@ -3851,7 +3850,7 @@ html.hasFontSmoothing-false .feed-bd .feed-microtext-content {
   height: 20px;
   overflow: hidden;
   text-indent: -9999px;
-  background-image: url('/img/icon/comment-notes.$6311.png');
+  background-image: url('/img/icon/comment-notes.png');
   background-repeat: no-repeat;
   margin-right: 5px;
 }
@@ -3911,8 +3910,8 @@ html.hasFontSmoothing-false .feed-bd .feed-microtext-content {
   right: -4px;
   width: 20px;
   height: 20px;
-  background: url("/img/icon/feed-icons.$6973.png") no-repeat 2px -58px scroll;
-  _background: url("/img/icon/feed-icons-ie.$5234.png") no-repeat 2px -28px scroll;
+  background: url("/img/icon/feed-icons.png") no-repeat 2px -58px scroll;
+  _background: url("/img/icon/feed-icons-ie.png") no-repeat 2px -28px scroll;
 }
 .feed-notes .nt-fav .notes-icon {
   background-position: -58px -56px;
@@ -4191,7 +4190,7 @@ html.hasFontSmoothing-false .feed-bd .feed-microtext-content {
   width: 22px;
   height: 22px;
   overflow: hidden;
-  background: url("/img/icon/feed-icons.$6973.png") no-repeat scroll -50px -150px;
+  background: url("/img/icon/feed-icons.png") no-repeat scroll -50px -150px;
   position: absolute;
   left: 40px;
   bottom: 10px;
@@ -4212,14 +4211,14 @@ html.hasFontSmoothing-false .feed-bd .feed-microtext-content {
   filter: alpha(opacity=80);
 }
 .img-exif-holder .gps-detail {
-  background: url(/img/icon/feed-exif-detail.$6731.png) no-repeat right 3px;
+  background: url(/img/icon/feed-exif-detail.png) no-repeat right 3px;
   cursor: pointer;
   padding-right: 11px;
 }
 .feed-img-too-high-tip {
   display: none;
   height: 32px;
-  background: url(/img/element/feed-img-too-high-tip.$5594.png) center 0;
+  background: url(/img/element/feed-img-too-high-tip.png) center 0;
   width: 100%;
   text-indent: -9999px;
 }
@@ -4255,7 +4254,7 @@ html.hasFontSmoothing-false .feed-bd .feed-microtext-content {
 }
 .text-img-holder.text-img-too-high .text-img-too-high-tip {
   height: 33px;
-  background: url(/img/element/feed-img-too-high-tip.$5594.png) center 0;
+  background: url(/img/element/feed-img-too-high-tip.png) center 0;
   width: 100%;
   text-indent: -9999px;
   display: block;
@@ -4301,8 +4300,8 @@ html.hasFontSmoothing-false .feed-bd .feed-microtext-content {
   display: block;
   width: 43px;
   height: 48px;
-  background: url(/img/button/player.$295.png) no-repeat;
-  _background-image: url(/img/button/player-ie6.$642.png);
+  background: url(/img/button/player.png) no-repeat;
+  _background-image: url(/img/button/player-ie6.png);
   text-indent: -9999px;
 }
 .feed-video .feed-video-cmt,
@@ -4394,7 +4393,7 @@ html.hasFontSmoothing-false .feed-bd .feed-microtext-content {
 .feed-audio .xiami-player {
   width: 257px;
   height: 33px;
-  background: url(/img/element/xiami_player.$1293.png) no-repeat;
+  background: url(/img/element/xiami_player.png) no-repeat;
 }
 .feed-audio .xiami-player a {
   display: block;
@@ -4429,7 +4428,7 @@ html.hasFontSmoothing-false .feed-bd .feed-microtext-content {
   line-height: 12px;
   text-indent: -9999px;
   overflow: hidden;
-  background-image: url(/img/icon/feed-icons.$6973.png);
+  background-image: url(/img/icon/feed-icons.png);
   background-repeat: no-repeat;
   margin-left: 2px;
 }
@@ -4519,9 +4518,9 @@ a.post-source-api:hover {
   height: 20px;
   line-height: 20px;
   color: #999;
-  background: url(/img/icon/home.$1256.png) no-repeat 0 -550px;
+  background: url(/img/icon/home.png) no-repeat 0 -550px;
   padding-left: 15px;
-  _background-image: url(/img/icon/home_ie6.$5765.png);
+  _background-image: url(/img/icon/home_ie6.png);
 }
 .user-repeat {
   margin-top: -12px;
@@ -4548,7 +4547,7 @@ a.post-source-api:hover {
 }
 /*标签页，热门下博客头像左下角热度样式*/
 .rank-list {
-  background: url(/img/element/hot-tag-icon.$4055.png) left top no-repeat;
+  background: url(/img/element/hot-tag-icon.png) left top no-repeat;
   width: 27px;
   height: 29px;
   line-height: 29px;
@@ -4609,16 +4608,16 @@ a.post-source-api:hover {
 }
 .feed-container-top {
   height: 5px;
-  background: url('/img/bg/feed-bg-sprites.$5106.png') 0 0 no-repeat;
-  _background: url('/img/bg/feed-bg-sprites-ie.$5106.png') 0 0 no-repeat;
+  background: url('/img/bg/feed-bg-sprites.png') 0 0 no-repeat;
+  _background: url('/img/bg/feed-bg-sprites-ie.png') 0 0 no-repeat;
 }
 .feed-ft-bottom,
 .feed-container-bottom {
   height: 10px;
   font-size: 0;
   line-height: 0;
-  background: url('/img/bg/feed-bg-sprites.$5106.png') -600px bottom no-repeat;
-  _background: url('/img/bg/feed-bg-sprites-ie.$5106.png') -600px bottom no-repeat;
+  background: url('/img/bg/feed-bg-sprites.png') -600px bottom no-repeat;
+  _background: url('/img/bg/feed-bg-sprites-ie.png') -600px bottom no-repeat;
 }
 .feed-ft {
   padding: 0 1px;
@@ -4641,8 +4640,8 @@ a.post-source-api:hover {
   margin: 0 1px 4px;
   border-top: 1px solid #C6C8CA;
   height: 30px;
-  background: url('/img/bg/feed-bg-sprites.$5106.png') -1800px bottom no-repeat;
-  _background: url('/img/bg/feed-bg-sprites-ie.$5106.png') -1800px bottom no-repeat;
+  background: url('/img/bg/feed-bg-sprites.png') -1800px bottom no-repeat;
+  _background: url('/img/bg/feed-bg-sprites-ie.png') -1800px bottom no-repeat;
   padding: 0 20px;
 }
 .feed-fold-footer .btn-icon {
@@ -4652,8 +4651,8 @@ a.post-source-api:hover {
   display: block;
   height: 9px;
   width: 14px;
-  background: url('/img/icon/feed-icons.$6973.png') no-repeat;
-  _background: url('/img/icon/feed-icons-ie.$5234.png') no-repeat;
+  background: url('/img/icon/feed-icons.png') no-repeat;
+  _background: url('/img/icon/feed-icons-ie.png') no-repeat;
 }
 .feed-fold-footer a.fold-btn-loading,
 .feed-fold-footer a.fold-btn-close,
@@ -4779,7 +4778,7 @@ a.post-source-api:hover {
   top: 100px;
 }
 .feed-new-post-guide .new-post-guide-tip {
-  background: url(/img/element/feed-new-post-guide.$5566.png) no-repeat 0 1px;
+  background: url(/img/element/feed-new-post-guide.png) no-repeat 0 1px;
   padding-left: 20px;
   line-height: 16px;
   margin-bottom: 10px;
@@ -4840,7 +4839,7 @@ a.post-source-api:hover {
   width: 22px;
   height: 22px;
   overflow: hidden;
-  background: url("/img/icon/feed-icons.$6973.png") no-repeat scroll -50px -172px;
+  background: url("/img/icon/feed-icons.png") no-repeat scroll -50px -172px;
   position: absolute;
   left: 10px;
   bottom: 10px;
@@ -4898,7 +4897,7 @@ a.post-source-api:hover {
 }
 */
 .readmark-wrapper {
-  background: url(/img/icon/feed-readmark.$7099.png) 0 0 no-repeat scroll;
+  background: url(/img/icon/feed-readmark.png) 0 0 no-repeat scroll;
   height: 62px;
   line-height: 62px;
   margin: 15px -10px 20px 75px;
@@ -4933,7 +4932,7 @@ a.post-source-api:hover {
   height: 17px;
   width: 17px;
   display: block;
-  background: url('/img/icon/feed-readmark-icon.$7084.png') 0 0 no-repeat;
+  background: url('/img/icon/feed-readmark-icon.png') 0 0 no-repeat;
 }
 .readmark-hover {
   background-position: -600px 0;
@@ -4950,7 +4949,7 @@ a.post-source-api:hover {
 .dd-photo-reply {
   width: 18px;
   height: 14px;
-  background: url(/img/icon/photo-reply.$6083.png) no-repeat;
+  background: url(/img/icon/photo-reply.png) no-repeat;
   display: block;
   overflow: hidden;
 }
@@ -4978,14 +4977,14 @@ a.post-source-api:hover {
   width: 250px;
 }
 #aside-reg-login-holder .aside-reg-login-wrap {
-  background: url(/img/app/aside-reg-login-line.$7164.png) center center no-repeat;
+  background: url(/img/app/aside-reg-login-line.png) center center no-repeat;
   padding: 20px 0;
 }
 #aside-reg-login-holder .aside-reg-login-wrap a {
   display: block;
   width: 112px;
   height: 50px;
-  background: url(/img/app/aside-login-register-btn.$7164.png) no-repeat;
+  background: url(/img/app/aside-login-register-btn.png) no-repeat;
   font-size: 14px;
   line-height: 48px;
   text-align: center;
@@ -5032,7 +5031,7 @@ a.post-source-api:hover {
   width: 35px;
   height: 35px;
   margin-right: 15px;
-  background: url(/img/app/contribute-submit-connect.$6758.png) no-repeat;
+  background: url(/img/app/contribute-submit-connect.png) no-repeat;
   text-indent: -9999px;
   overflow: hidden;
 }
