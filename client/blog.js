@@ -15,7 +15,7 @@ var r = new router();
 Meteor.Router.add({
   '': function() {
     Session.set('view', 'read');
-    return 'view' ;
+    return 'articles' ;
   },
   '/new': function () {
     Session.set('view', 'new');
@@ -33,7 +33,7 @@ Meteor.Router.add({
   }
 });
 
-Template.admin.articles = function() {
+Template.admin.articleItems = function() {
   return Articles.find({}, {sort: {createdAt: -1}});
 }
 Template.header.helpers({
@@ -41,7 +41,7 @@ Template.header.helpers({
         return Session.equals('view', 'admin');
       }
 });
-Template.article.createdAt = function() {
+Template.articleItem.createdAt = function() {
   return moment(this.createdAt).fromNow();
 }
 Template.header.events = {
@@ -84,6 +84,10 @@ Template.new.helpers({
       return Articles.findOne({id: parseInt(Session.get('article_id'))});
   }
 });
+
+Template.articles.articles = function () {
+  return Articles.find({}, {sort: {createdAt: -1}});
+}
 Meteor.startup(function () {
   Backbone.history.start({pushState: true});
 });

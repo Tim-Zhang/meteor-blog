@@ -54,8 +54,8 @@
           <tr><th style="width:30%">Title</th><th style="width:50%">Tags</th><th style="width:20%">Last Modify</th></tr>
         </thead>
         <tbody>
-        {{#each articles}}
-          {{> article}}
+        {{#each articleItems}}
+          {{> articleItem}}
         {{/each}}
         </tbody>
       </table>
@@ -63,7 +63,7 @@
   </div>
   
 </template>
-<template name="article">
+<template name="articleItem">
   <tr>
     <td><a href="/edit/{{id}}">{{title}}</a></td>
     <td>
@@ -78,7 +78,7 @@
   <div id="header-holder" class="startpage">
   <div id="header" class="clearfix">
   <div id="logo-holder">
-  <h1 id="logo"><a href="blog.is3w.com">点点网</a></h1>
+  <h1 id="logo"><a href="/">Tim的轻博客</a></h1>
   <h2 id="global-slogan">人生短暂，劝君奋进</h2>
   {{#if is_admin}}
   <div id="nav-blog-action">
@@ -95,73 +95,16 @@
   </div>
   </div> 
 </template>
-<template name="view">
+<template name="articles">
       {{> header}}
       <div id="content-holder">
          <div id="content">
                   <div id="main">
                      <div class="feed-list" id="feed-list" style="margin-top:-15px;">
 
-
-
-
-
-                     <div class="feed  feed-photo" id="feed-4a3abcf0-3159-11e2-83a5-782bcb43b7a3" data-comment="1">
-                     <div class="feed-avatar">
-                     <a target="_blank" avatar="http://m2.img.libdd.com/farm3/199/BDAAEA0E098FFB0D71FE20C918468BC7_64_64.jpg" title="非黑即白" href="http://weiguomiracle.diandian.com?ref=avatar" class="blog-avatar" style="background-image: url(http://secure.gravatar.com/avatar/f91eb8f2dc861efca03e49558ff90f04?s=64); ">Tim</a></div>
-                     <div class="feed-content-holder pop"><div class="pop-triangle"></div>
-                     <div class="link-to-post-holder" style="display: none; ">
-                     <div class="link-to-post-inner" style="background-position: 0px -1203.9666748046875px; ">
-                     <a href="http://weiguomiracle.diandian.com/post/2012-11-18/40041829219" target="_blank" class="link-to-post" title="查看文章 - 16:23">查看文章</a>
-                     </div>
-                     </div><div class="feed-container-top"></div>
-                     <div class="pop-content clearfix"><div class="feed-hd">
-                     <div class="feed-basic">
-                     <a target="_blank" href="http://weiguomiracle.diandian.com" class="feed-user">Tim</a></div>
-                     </div><div class="feed-bd">
-
-                     <script>
-                     ENV.feedImgInfos = ENV.feedImgInfos || {};ENV.feedImgInfos['025156AF84CF15F800A8290DB354B34E'] = {
-                     '250':'http://m3.img.libdd.com/farm5/2012/1118/16/025156AF84CF15F800A8290DB354B34E877FCEBE7855A_250_367.jpg',
-                     '800':'http://m1.img.libdd.com/farm5/2012/1118/16/025156AF84CF15F800A8290DB354B34EF6138609F0624_800_1175.jpg',
-                     '1280':'http://m1.img.libdd.com/farm5/2012/1118/16/025156AF84CF15F800A8290DB354B34E18EA4E8B4589F_1230_1806.JPEG',
-                     'large':'http://m1.img.libdd.com/farm5/2012/1118/16/025156AF84CF15F800A8290DB354B34E18EA4E8B4589F_1230_1806.JPEG',
-                     'desc':''
-                     };</script>
-                     <div class="feed-ct" largeimg="true">
-                     <div class="feed-img-thumb post-one-img no-title " style="width:150px;display:none;">
-                     <div class="feed-one-img feed-one-img-thumb">
-                     <img class="feed-img" imgsrc="http://m3.img.libdd.com/farm5/2012/1118/16/025156AF84CF15F800A8290DB354B34E877FCEBE7855A_250_367.jpg" data-lazyload="true" width="150" height="220" alt="猫,黑白,手机摄影,宠物" src="http://m3.img.libdd.com/farm5/2012/1118/16/025156AF84CF15F800A8290DB354B34E877FCEBE7855A_250_367.jpg">
-                     </div>
-                     <div class="feed-img-too-high-tip"></div>
-                     </div>
-
-                     <div class="feed-img-all post-one-img no-title ">
-                     <div class="feed-big-img">
-                     <img class="feed-img J_BigImage" imgsrc="http://m3.img.libdd.com/farm5/2012/1118/16/025156AF84CF15F800A8290DB354B34E69E993088B2A5_500_734.jpg" data-lazyload="true" data-origin-info="http://m1.img.libdd.com/farm5/2012/1118/16/025156AF84CF15F800A8290DB354B34E18EA4E8B4589F_1230_1806.JPEG:1230.0:1806.0:025156AF84CF15F800A8290DB354B34E" width="500" height="734" alt="猫,黑白,手机摄影,宠物" src="http://m3.img.libdd.com/farm5/2012/1118/16/025156AF84CF15F800A8290DB354B34E69E993088B2A5_500_734.jpg">
-                     <div class="img-exif-holder" data-id="025156AF84CF15F800A8290DB354B34E"></div><span class="feed-slide-hook" title="查看大图" index="" style="display:none">查看大图</span>
-                     </div>
-                     <div class="feed-img-too-high-tip" style="width:500px"></div>
-                     </div>
-                     <div class="feed-img-too-hight-close-holder" style="display:none;">
-                     <span class="feed-img-too-hight-close-holder">收起</span>
-                     </div></div>
-
-                     <div class="feed-tag clearfix">
-                     <a href="http://www.diandian.com/tag/%E7%8C%AB" class="editor-pick-tag ">#猫</a>
-                     <a href="http://www.diandian.com/tag/%E9%BB%91%E7%99%BD" class="editor-pick-tag ">#黑白</a>
-                     <a href="http://www.diandian.com/tag/%E6%89%8B%E6%9C%BA%E6%91%84%E5%BD%B1" class=" ">#手机摄影</a>
-                     <a href="http://www.diandian.com/tag/%E5%AE%A0%E7%89%A9" class=" last">#宠物</a></div><div class="feed-act">
-                     <a title="喜欢" class="feed-not-login feed-fav ">喜欢</a>
-                     <span class="feed-not-login feed-rt">转载</span>
-                     <span class="feed-not-login feed-cmt" data-nid="4a3abcf0-3159-11e2-83a5-782bcb43b7a3">
-                     回应</span><span data-type="photo" data-nid="4a3abcf0-3159-11e2-83a5-782bcb43b7a3" class="feed-not-login feed-nt">热度(2)</span></div>
-                     </div></div><div class="feed-ft J_FeedFooter" style="display:none">
-                     <div class="feed-ft-bottom"></div>
-                     <div class="feed-ft-triangle J_FeedFooterTriangle"></div>
-                     </div><div class="feed-container-bottom"></div></div>
-                     </div>
-
+                       {{#each articles}}
+                         {{> article}}
+                       {{/each}}
 
 
                      <div class="paging-feed clearfix" id="paging-feed">
@@ -174,4 +117,39 @@
         
          </div>
       </div>
+</template>
+
+<template name="article">
+   <div class="feed  feed-photo" id="feed-4a3abcf0-3159-11e2-83a5-782bcb43b7a3" data-comment="1">
+   <div class="feed-avatar">
+   <a target="_blank" avatar="http://m2.img.libdd.com/farm3/199/BDAAEA0E098FFB0D71FE20C918468BC7_64_64.jpg" title="非黑即白" href="http://weiguomiracle.diandian.com?ref=avatar" class="blog-avatar" style="background-image: url(http://secure.gravatar.com/avatar/f91eb8f2dc861efca03e49558ff90f04?s=64); ">Tim</a></div>
+   <div class="feed-content-holder pop"><div class="pop-triangle"></div>
+   <div class="link-to-post-holder" style="display: none; ">
+   <div class="link-to-post-inner" style="background-position: 0px -1203.9666748046875px; ">
+   <a href="http://weiguomiracle.diandian.com/post/2012-11-18/40041829219" target="_blank" class="link-to-post" title="查看文章 - 16:23">查看文章</a>
+   </div>
+   </div><div class="feed-container-top"></div>
+   <div class="pop-content clearfix"><div class="feed-hd">
+   <div class="feed-basic">
+   <a target="_blank" href="http://weiguomiracle.diandian.com" class="feed-user">Tim</a></div>
+   </div>
+   <div class="feed-bd">
+
+     {{#markdown}}{{content}}{{/markdown}}
+     <div class="feed-tag clearfix">
+       <a href="http://www.diandian.com/tag/%E7%8C%AB" class="editor-pick-tag ">#猫</a>
+       <a href="http://www.diandian.com/tag/%E9%BB%91%E7%99%BD" class="editor-pick-tag ">#黑白</a>
+       <a href="http://www.diandian.com/tag/%E6%89%8B%E6%9C%BA%E6%91%84%E5%BD%B1" class=" ">#手机摄影</a>
+       <a href="http://www.diandian.com/tag/%E5%AE%A0%E7%89%A9" class=" last">#宠物</a></div><div class="feed-act">
+       <a title="喜欢" class="feed-not-login feed-fav ">喜欢</a>
+       <span class="feed-not-login feed-rt">转载</span>
+       <span class="feed-not-login feed-cmt" data-nid="4a3abcf0-3159-11e2-83a5-782bcb43b7a3">
+         回应</span><span data-type="photo" data-nid="4a3abcf0-3159-11e2-83a5-782bcb43b7a3" class="feed-not-login feed-nt">热度(2)</span>
+     </div>
+   </div></div><div class="feed-ft J_FeedFooter" style="display:none">
+   <div class="feed-ft-bottom"></div>
+   <div class="feed-ft-triangle J_FeedFooterTriangle"></div>
+   </div><div class="feed-container-bottom"></div></div>
+   </div>
+
 </template>
