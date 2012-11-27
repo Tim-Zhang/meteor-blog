@@ -44,6 +44,13 @@ Template.header.helpers({
 Template.articleItem.createdAt = function() {
   return moment(this.createdAt).fromNow();
 }
+
+Template.articleItem.events = {
+  'click .icon-remove': function () {
+    Articles.remove({_id: this._id});
+  }
+};
+
 Template.header.events = {
   'click #nav-new-blog' : function () {
     Meteor.Router.to('/new');

@@ -9,3 +9,10 @@
   border-color:white;
 
 }
+.article-list .icon-remove {
+  visibility:hidden;
+  cursor:pointer;
+}
+.article-list tr:hover .icon-remove {
+  visibility:visible;
+}
