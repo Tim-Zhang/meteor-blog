@@ -4,15 +4,34 @@
   font-family: Monaco,"Courier New","DejaVu Sans Mono","Bitstream Vera Sans Mono",monospace;
 }
 .doc_preview {
-  box-shadow:none;
-  background:none;
-  border-color:white;
+  box-shadow :none;
+  background: none;
+  border-color: white;
 
 }
-.article-list .icon-remove {
-  visibility:hidden;
-  cursor:pointer;
+.tag {
+  float: left;
+  margin-right: 5px;
+  padding: 0 5px;
+  background: #BABABA;
+  color: white;
+  border-radius: 4px;
+  cursor: pointer;
 }
-.article-list tr:hover .icon-remove {
-  visibility:visible;
+.new-tag {
+  background: transparent;
+  border: 1px dashed #999;
+  color: #999;
+}
+.new-tag:hover {
+  background: #DDD;
+  color: white;
+}
+#edittag-input {
+  margin:0;
+  padding:0;
+  width:95%;
+}
+.tag.edittag {
+  width:70px
 }

@@ -68,10 +68,23 @@
     <td><a href="/edit/{{id}}">{{title}}</a></td>
     <td><i class="icon-remove"></i></td>
     <td>
-        <div class="tag new-tag">new tag</div>
+        {{#each tags}}
+          {{> tag}}
+        {{/each}}
+        {{#if adding_tag}}
+          <div class="tag edittag">
+            <input type="text" id="edittag-input" value="" autofocus/>
+          </div>
+        {{else}}
+          <div class="tag new-tag">new tag</div>
+        {{/if}}
     </td>
     <td>{{createdAt}}</td>
   </tr>
+</template>
+
+<template name="tag">
+  <div class="tag"><span class="tag_name">{{this}}</span> <span class="remove-tag">&times;</span></div>
 </template>
 
 

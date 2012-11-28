@@ -48,9 +48,43 @@ Template.articleItem.createdAt = function() {
 Template.articleItem.events = {
   'click .icon-remove': function () {
     Articles.remove({_id: this._id});
+  },
+  'click .new-tag': function () {
+    Session.set('adding_tag', this._id);
+    //Meteor.flush();
+    //$('#edittag-input').focus();
+  },
+  'blur #edittag-input': function () {
+    Session.set('adding_tag', null);
+    value = event.target.value;
+    saveTag(value, this._id);
+  },
+  'keyup #edittag-input': function (event) {
+     if (event.which == 13) {
+       Session.set('adding_tag', null);
+       value = event.target.value;
+       saveTag(value, this._id);
+     }
   }
 };
 
+function saveTag(value, id) {
+  if (!value) return;
+  console.log('save', id);
+  Articles.update(id, {$addToSet: {tags: value}});
+     // Docs.update(this._id, {$addToSet: {tags: value}})
+}
+Template.articleItem.helpers({
+  adding_tag: function () {
+    return Session.equals('adding_tag', this._id);
+  }
+});
+
+Template.tag.helpers({
+});
+
+Template.tag.events = {
+}
 Template.header.events = {
   'click #nav-new-blog' : function () {
     Meteor.Router.to('/new');
