@@ -70,13 +70,18 @@ Template.articleItem.events = {
 
 function saveTag(value, id) {
   if (!value) return;
-  console.log('save', id);
   Articles.update(id, {$addToSet: {tags: value}});
      // Docs.update(this._id, {$addToSet: {tags: value}})
 }
 Template.articleItem.helpers({
   adding_tag: function () {
     return Session.equals('adding_tag', this._id);
+  },
+  tags: function () {
+   var that = this;
+   return _.map(this.tags, function(tag){
+      return {tag: tag,article_id: that._id};
+    });
   }
 });
 
@@ -84,6 +89,9 @@ Template.tag.helpers({
 });
 
 Template.tag.events = {
+  'click .remove-tag': function () {
+    Articles.update(this.article_id, {$pull: {tags: this.tag}});
+  },
 }
 Template.header.events = {
   'click #nav-new-blog' : function () {

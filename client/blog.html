@@ -84,7 +84,7 @@
 </template>
 
 <template name="tag">
-  <div class="tag"><span class="tag_name">{{this}}</span> <span class="remove-tag">&times;</span></div>
+  <div class="tag"><span class="tag_name">{{tag}}</span> <span class="remove-tag">&times;</span></div>
 </template>
 
 
@@ -151,14 +151,15 @@
 
      {{#markdown}}{{content}}{{/markdown}}
      <div class="feed-tag clearfix">
-       <a href="http://www.diandian.com/tag/%E7%8C%AB" class="editor-pick-tag ">#猫</a>
-       <a href="http://www.diandian.com/tag/%E9%BB%91%E7%99%BD" class="editor-pick-tag ">#黑白</a>
-       <a href="http://www.diandian.com/tag/%E6%89%8B%E6%9C%BA%E6%91%84%E5%BD%B1" class=" ">#手机摄影</a>
-       <a href="http://www.diandian.com/tag/%E5%AE%A0%E7%89%A9" class=" last">#宠物</a></div><div class="feed-act">
+       {{#each tags}}
+       <a href="" class="editor-pick-tag ">{{this}}</a>
+       {{/each}}
        <a title="喜欢" class="feed-not-login feed-fav ">喜欢</a>
+       <!--
        <span class="feed-not-login feed-rt">转载</span>
        <span class="feed-not-login feed-cmt" data-nid="4a3abcf0-3159-11e2-83a5-782bcb43b7a3">
          回应</span><span data-type="photo" data-nid="4a3abcf0-3159-11e2-83a5-782bcb43b7a3" class="feed-not-login feed-nt">热度(2)</span>
+       -->
      </div>
    </div></div><div class="feed-ft J_FeedFooter" style="display:none">
    <div class="feed-ft-bottom"></div>

@@ -35,3 +35,6 @@
 .tag.edittag {
   width:70px
 }
+.tag .remove-tag:hover {
+  color:black;
+}

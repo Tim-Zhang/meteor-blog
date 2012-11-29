@@ -12,3 +12,4 @@ moment
 router
 jquery
 showdown
+underscore

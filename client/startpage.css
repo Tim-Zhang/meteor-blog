@@ -3473,6 +3473,7 @@ html.hasFontSmoothing-false .feed-bd .feed-microtext-content {
   line-height: 14px;
   overflow: hidden;
   display: block;
+  padding-top: 10px;
 }
 .feed-bd .feed-tag a {
   float: left;
