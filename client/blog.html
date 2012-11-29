@@ -104,33 +104,49 @@
   <div id="what-is-diandian">
   <a href="http://gongju.xxx" class="dian-transfer" target="_blank">工具箱</a>
   <span>&nbsp;</span>
-  <a href="http://www.diandian.com/about" class="dian-about" target="_blank">关于我</a>
+  <a href="http://zhangzewen.me" class="dian-about" target="_blank">关于我</a>
   </div>
   </div>
   </div> 
 </template>
+
+<template name="footer">
+  <div id="footer-holder">
+    <p class="copy-right">
+    Tim&copy2012
+    </p>
+  </div>
+</template>
+
 <template name="articles">
-      {{> header}}
-      <div id="content-holder">
-         <div id="content">
-                  <div id="main">
-                     <div class="feed-list" id="feed-list" style="margin-top:-15px;">
+  {{> header}}
+  <div id="content-holder">
+     <div id="content">
+        <div id="main">
+           <div class="feed-list" id="feed-list" style="margin-top:-15px;">
 
-                       {{#each articles}}
-                         {{> article}}
-                       {{/each}}
+             {{#each articles}}
+               {{> article}}
+             {{/each}}
 
-
-                     <div class="paging-feed clearfix" id="paging-feed">
-                     <div class="page-nav">
-                     <div class="ui-button skin-button-willsilver-lite" cloud="" href="http://www.diandian.com/?page=2" id="ctrlbuttonpaging-feed-next" data-control="paging-feed-next" style="width: 80px; "><span class="ui-button-bg-left skin-button-willsilver-lite-bg-left"></span><div id="ctrlbuttonpaging-feed-nextlabel" class="ui-button-label skin-button-willsilver-lite-label"><span id="ctrlbuttonpaging-feed-nexttext" class="ui-button-text skin-button-willsilver-lite-text">下一页</span></div></div>
-                     </div></div>
+             <!--分页
+               <div class="paging-feed clearfix" id="paging-feed">
+                 <div class="page-nav">
+                   <div class="ui-button skin-button-willsilver-lite" cloud="" href="http://www.diandian.com/?page=2" id="ctrlbuttonpaging-feed-next" data-control="paging-feed-next" style="width: 80px; ">
+                     <span class="ui-button-bg-left skin-button-willsilver-lite-bg-left"></span>
+                     <div id="ctrlbuttonpaging-feed-nextlabel" class="ui-button-label skin-button-willsilver-lite-label"><span id="ctrlbuttonpaging-feed-nexttext" class="ui-button-text skin-button-willsilver-lite-text">下一页</span>
                      </div>
-                     </div>
+                   </div>
+                 </div>
+               </div>
+             -->
 
-        
-         </div>
-      </div>
+           </div>
+        </div>
+    
+     </div>
+  </div>
+  {{> footer}}
 </template>
 
 <template name="article">

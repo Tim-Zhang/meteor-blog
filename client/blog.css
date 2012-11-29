@@ -28,13 +28,23 @@
   color: white;
 }
 #edittag-input {
-  margin:0;
-  padding:0;
-  width:95%;
+  margin: 0;
+  padding: 0;
+  width: 95%;
 }
 .tag.edittag {
-  width:70px
+  width: 70px
 }
 .tag .remove-tag:hover {
-  color:black;
+  color: black;
+}
+#footer-holder .copy-right {
+  color: #B4B4B4;
+  text-align: center;
+}
+/*暂时把文章内容居中,把宽度改为625px*/div#header {
+  width: 625px !important;
+}
+div#content {
+  width: 625px !important;
 }
