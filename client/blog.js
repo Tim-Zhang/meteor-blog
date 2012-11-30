@@ -91,7 +91,7 @@ Template.tag.helpers({
 Template.tag.events = {
   'click .remove-tag': function () {
     Articles.update(this.article_id, {$pull: {tags: this.tag}});
-  },
+  }
 }
 Template.header.events = {
   'click #nav-new-blog' : function () {
