@@ -13,3 +13,5 @@ router
 jquery
 showdown
 underscore
+accounts-ui
+accounts-google
