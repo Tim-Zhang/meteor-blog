@@ -1,3 +1,4 @@
+console.log(Meteor.users);
 var ArticleContent; 
 var editor, preview;
 var router = Backbone.Router.extend({
