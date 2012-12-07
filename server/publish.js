@@ -1,3 +1,7 @@
 Meteor.publish('admin', function() {
-  return Metero.user.findOne({}, {sort: {createdAt: -1}});
+  return Meteor.users.find({});
+});
+Articles = new Meteor.Collection('articles');
+Meteor.publish('test', function () {
+  return Articles.find({});
 });

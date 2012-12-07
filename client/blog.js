@@ -1,4 +1,6 @@
+Articles = new Meteor.Collection('articles');
 Meteor.subscribe('admin');
+Meteor.subscribe('test');
 var ArticleContent; 
 var editor, preview;
 var router = Backbone.Router.extend({
