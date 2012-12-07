@@ -1,7 +1,5 @@
-var Articles = new Meteor.Collection('articles');
 var ArticleContent; 
 var editor, preview;
-//Meteor.subscribe('articles', function() {});
 var router = Backbone.Router.extend({
   routes: {
     'edit/:id': 'edit'  
