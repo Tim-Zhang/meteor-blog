@@ -1,6 +1,8 @@
 Articles = new Meteor.Collection('articles');
-Meteor.subscribe('admin');
+
 Meteor.subscribe('articles');
+Meteor.subscribe('admin');
+
 var ArticleContent; 
 var editor, preview;
 var router = Backbone.Router.extend({
@@ -33,6 +35,22 @@ Meteor.Router.add({
     return 'admin';
   }
 });
+
+Meteor.Router.filters({
+  'checkLoggedIn': function(page) {
+    if (Meteor.user()) {
+      if (Meteor.loggingIn()) {
+        return 'loading';
+      } else {
+        return page;
+      }
+    } else {
+      return 'signin';
+    }
+  }
+});
+
+Meteor.Router.filter('checkLoggedIn', {only: 'admin'});
 
 Template.admin.articleItems = function() {
   return Articles.find({}, {sort: {createdAt: -1}});
