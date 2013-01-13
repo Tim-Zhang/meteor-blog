@@ -61,11 +61,12 @@
       </table>
     
   </div>
+  {{> footer}}
   
 </template>
 
 <template name="loading">
-  loading now.
+  loading now...
 </template>
 
 <template name="signin">
@@ -129,6 +130,7 @@
   <div id="footer-holder">
     <p class="copy-right">
     Tim&copy2012
+    {{loginButtons}}
     </p>
   </div>
 </template>
