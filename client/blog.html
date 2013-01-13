@@ -69,10 +69,16 @@
   loading now...
 </template>
 
+<template name="notsupper">
+  <div>你不是超级管理员，所以什么都看不到！</div>
+  {{> footer}}
+</template>
+
 <template name="signin">
   {{> header}}
   <div id="content">
     <div class="signin">
+      <div>需要先登录才能管理</div>
     </div>
   </div>
   {{> footer}}
