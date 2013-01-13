@@ -5,15 +5,6 @@ Meteor.subscribe('admin');
 
 var ArticleContent; 
 var editor, preview;
-var router = Backbone.Router.extend({
-  routes: {
-    'edit/:id': 'edit'  
-  },
-  edit:function(id) {
-    console.log('id'); 
-  }
-});
-var r = new router();
 
 Meteor.Router.add({
   '': function() {
@@ -31,6 +22,7 @@ Meteor.Router.add({
     return 'new';
   },
   '/admin': function () {
+    console.log('admin');
     Session.set('view', 'admin');
     return 'admin';
   }
@@ -157,6 +149,5 @@ Template.articles.articles = function () {
   return Articles.find({}, {sort: {createdAt: -1}});
 }
 Meteor.startup(function () {
-  Backbone.history.start({pushState: true});
 });
 

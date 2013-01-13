@@ -48,7 +48,6 @@
 
 <template name="admin">
   {{> header}}
-  {{loginButtons}}
   <div class="manage">
     <table class="table table-striped article-list">
         <thead>
@@ -64,6 +63,21 @@
   </div>
   
 </template>
+
+<template name="loading">
+  loading now.
+</template>
+
+<template name="signin">
+  {{> header}}
+  <div id="content">
+    <div class="signin">
+      {{loginButtons}}
+    </div>
+  </div>
+  {{> footer}}
+</template>
+
 <template name="articleItem">
   <tr>
     <td><a href="/edit/{{id}}">{{title}}</a></td>
