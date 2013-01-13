@@ -45,15 +45,20 @@ Meteor.Router.filters({
   }
 });
 
-Meteor.Router.filter('checkLoggedIn', {only: 'admin'});
+Meteor.Router.filter('checkLoggedIn', {only: ['admin', 'new', 'edit']});
 
 Template.admin.articleItems = function() {
   return Articles.find({}, {sort: {createdAt: -1}});
 }
 Template.header.helpers({
   is_admin: function(){
-        return Session.equals('view', 'admin');
-      }
+    return Session.equals('view', 'admin');
+  }
+});
+Template.footer.helpers({
+  is_read: function() {
+    return Session.equals('view', 'read');
+  }
 });
 Template.articleItem.createdAt = function() {
   return moment(this.createdAt).fromNow();

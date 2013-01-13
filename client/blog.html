@@ -38,10 +38,7 @@
   
   
       <hr>
-
-      <footer>
-        <p>© Tim Zhang. 2012</p>
-      </footer>
+      {{> footer}}
 
     </div>
 </template>
@@ -135,7 +132,9 @@
   <div id="footer-holder">
     <p class="copy-right">
     Tim&copy2012
-    {{loginButtons}}
+    {{#unless is_read}}
+      {{loginButtons}}
+    {{/unless}}
     </p>
   </div>
 </template>
