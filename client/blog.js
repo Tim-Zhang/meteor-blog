@@ -22,7 +22,6 @@ Meteor.Router.add({
     return 'new';
   },
   '/admin': function () {
-    console.log('admin');
     Session.set('view', 'admin');
     return 'admin';
   }
@@ -34,7 +33,11 @@ Meteor.Router.filters({
       if (Meteor.loggingIn()) {
         return 'loading';
       } else {
-        return page;
+        if (Meteor.userId() == Meteor.users.findOne({},{sort: {createdAt: 1}})._id) {
+          return page;
+        } else {
+          return 'notsupper';
+        } 
       }
     } else {
       return 'signin';
@@ -119,8 +122,6 @@ Template.new.events = {
      var id = Session.get('article_id');
 
      if (id) { //update
-       console.log(id);
-       console.log(title);
        Articles.update({id: parseInt(id)}, {$set: {title: title, content: editor.val(), lastModify: new Date().getTime()}});
 
      } else { //insert
