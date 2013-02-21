@@ -2,7 +2,8 @@ Meteor.publish('admin', function() {
   return Meteor.users.find({}, {sort: {createdAt: 1}, fields: {'_id': 1, 'profile': 1, 'createdAt': 1}});
 });
 
-var adminId = Meteor.users.findOne({}, {sort: {createdAt: 1}, fields: {'_id': 1, 'profile': 1, 'createdAt': 1}})._id;
+var admin = Meteor.users.findOne({}, {sort: {createdAt: 1}, fields: {'_id': 1, 'profile': 1, 'createdAt': 1}});
+var adminId = admin && admin._id || 0;
 
 Articles = new Meteor.Collection('articles');
 Articles.allow({
