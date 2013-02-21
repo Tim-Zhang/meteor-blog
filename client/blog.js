@@ -159,6 +159,7 @@ var TA = function(code) {
   (function() {
     var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
     ga.src = ('https:' == document.location.protocol ? 'https://' : 'http://') + 'tajs.qq.com/stats?sId=' + code;
+    console.log(document.location.protocol);
     var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
   })();
 };
