@@ -73,6 +73,9 @@ Template.articleItem.events = {
     //Meteor.flush();
     //$('#edittag-input').focus();
   },
+  'click .feed-fav': function() {
+    console.log('feed fav');
+  },
   'blur #edittag-input': function () {
     Session.set('adding_tag', null);
     value = event.target.value;
@@ -159,7 +162,6 @@ var TA = function(code) {
   (function() {
     var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
     ga.src = ('https:' == document.location.protocol ? 'https://' : 'http://') + 'tajs.qq.com/stats?sId=' + code;
-    console.log(document.location.protocol);
     var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
   })();
 };

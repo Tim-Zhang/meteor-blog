@@ -6,6 +6,7 @@
   "packages": {
     "moment": {},
     "router": {},
-    "marked": {}
+    "marked": {},
+    "accounts-dnspod": {}
   }
 }

@@ -2,13 +2,14 @@
   "meteor": {
     "git": "https://github.com/meteor/meteor.git",
     "branch": "devel",
-    "commit": "87ef7b692a5aa3ea379c584bd9878475a465627f"
+    "commit": "9154b5d3c40241f3f909c548bb80d3e07860e7f1"
   },
   "dependencies": {
     "basePackages": {
       "moment": {},
       "router": {},
-      "marked": {}
+      "marked": {},
+      "accounts-dnspod": {}
     },
     "packages": {
       "moment": {
@@ -18,18 +19,23 @@
       },
       "router": {
         "git": "https://github.com/tmeasday/meteor-router.git",
-        "tag": "v0.2.6",
-        "commit": "a1866908a9fb6d287bb877c6583cee93f89e378e"
+        "tag": "v0.4.2",
+        "commit": "82d2895847502b4025370523dba60d597cff4772"
       },
       "marked": {
         "git": "https://github.com/chuangbo/meteor-marked.git",
         "tag": "v0.2.5",
         "commit": "e435075a3fd4bc9103cb713e8c400b54d4d704fe"
       },
-      "page-js": {
-        "git": "https://github.com/tmeasday/meteor-page-js.git",
-        "tag": "v1.3.1",
-        "commit": "ee0b651869928abe50b5d06d7f32ccd2e657883a"
+      "accounts-dnspod": {
+        "git": "https://github.com/zewenzhang/meteor-accounts-dnspod.git",
+        "tag": "v0.2.0",
+        "commit": "df0cc96ec1525dace9949d199a1ae86b9f7d821e"
+      },
+      "page-js-ie-support": {
+        "git": "https://github.com/tmeasday/meteor-page-js-ie-support.git",
+        "tag": "v1.3.5",
+        "commit": "b99ed8380aefd10b2afc8f18d9eed4dd0d8ea9cb"
       }
     }
   }
