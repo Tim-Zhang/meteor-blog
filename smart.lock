@@ -2,7 +2,7 @@
   "meteor": {
     "git": "https://github.com/meteor/meteor.git",
     "branch": "devel",
-    "commit": "9154b5d3c40241f3f909c548bb80d3e07860e7f1"
+    "commit": "0da938955c88517801d8926384ef6fdd2cc57fa7"
   },
   "dependencies": {
     "basePackages": {
@@ -29,8 +29,8 @@
       },
       "accounts-dnspod": {
         "git": "https://github.com/zewenzhang/meteor-accounts-dnspod.git",
-        "tag": "v0.2.0",
-        "commit": "df0cc96ec1525dace9949d199a1ae86b9f7d821e"
+        "tag": "v0.2.1",
+        "commit": "5bead22484cf94690063bd936c48be62eff2e949"
       },
       "page-js-ie-support": {
         "git": "https://github.com/tmeasday/meteor-page-js-ie-support.git",
