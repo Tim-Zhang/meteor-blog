@@ -9,7 +9,8 @@
       "moment": {},
       "router": {},
       "marked": {},
-      "accounts-dnspod": {}
+      "accounts-dnspod": {},
+      "tracker": {}
     },
     "packages": {
       "moment": {
@@ -31,6 +32,11 @@
         "git": "https://github.com/zewenzhang/meteor-accounts-dnspod.git",
         "tag": "v0.2.1",
         "commit": "5bead22484cf94690063bd936c48be62eff2e949"
+      },
+      "tracker": {
+        "git": "https://github.com/svda/meteor-tracker.git",
+        "tag": "v0.1.0",
+        "commit": "e436fe8a097bf2090ab742306c9cc31a826e41b6"
       },
       "page-js-ie-support": {
         "git": "https://github.com/tmeasday/meteor-page-js-ie-support.git",

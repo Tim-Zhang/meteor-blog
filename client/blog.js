@@ -159,11 +159,14 @@ Template.articles.articles = function () {
 };
 
 var TA = function(code) {
-  (function() {
-    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-    ga.src = ('https:' == document.location.protocol ? 'https://' : 'http://') + 'tajs.qq.com/stats?sId=' + code;
-    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-  })();
+  return function() {
+    var ta = document.createElement('script'); ta.type = 'text/javascript'; ta.async = true;
+    ta.src = ('https:' == document.location.protocol ? 'https://' : 'http://') + 'tajs.qq.com/stats?sId=' + code;
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ta, s);
+  };
 };
-TA(20598229);
+
+//TA(20598229)();
+var AppTracker = new Tracker();
+AppTracker.register(GoogleAnalyticsTracker, {account: 'UA-39104967-1'});
 
