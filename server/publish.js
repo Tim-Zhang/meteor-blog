@@ -11,7 +11,7 @@ Articles.allow({
     return (userId === adminId);
   },
   update: function (userId, docs, fields, modifier) {
-    return (userId === adminId);
+    return (userId === adminId || fields == 'fav');
   },
   remove: function (userId, docs) {
     return (userId === adminId);

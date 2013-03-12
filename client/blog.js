@@ -60,9 +60,12 @@ Template.footer.helpers({
     return Session.equals('view', 'read');
   }
 });
-Template.articleItem.createdAt = function() {
-  return moment(this.createdAt).fromNow();
-}
+Template.articleItem.helpers({
+  createdAt: function() {
+    return moment(this.createdAt).fromNow();
+  }
+
+});
 
 Template.articleItem.events = {
   'click .icon-remove': function () {
@@ -104,6 +107,31 @@ Template.articleItem.helpers({
    return _.map(this.tags, function(tag){
       return {tag: tag,article_id: that._id};
     });
+  }
+});
+
+Template.article.events = {
+  'click .feed-fav.unfaved': function() {
+     if (Meteor.userId()) {
+       Articles.update(this._id, {$addToSet: {fav: Meteor.userId()}}); 
+     } else {
+       Meteor.loginWithDnspod(); 
+     }
+  },
+  'click .feed-fav.faved': function() {
+     if (Meteor.userId()) {
+       Articles.update(this._id, {$pull: {fav: Meteor.userId()}}); 
+     } else {
+       Meteor.loginWithDnspod(); 
+     }
+  }
+
+};
+
+Template.article.helpers({
+  is_fav: function() {
+    if (!Meteor.userId()) return false;
+    return !!Articles.findOne({_id:this._id, fav: {$in: [Meteor.userId()]}});
   }
 });
 

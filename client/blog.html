@@ -128,9 +128,7 @@
   <div id="footer-holder">
     <p class="copy-right">
     Tim&copy2013
-    {{#unless is_read}}
       {{loginButtons}}
-    {{/unless}}
     </p>
   </div>
 </template>
@@ -187,12 +185,14 @@
        {{#each tags}}
        <a href="" class="editor-pick-tag ">{{this}}</a>
        {{/each}}
-       <a title="喜欢" class="feed-not-login feed-fav ">喜欢</a>
        <!--
        <span class="feed-not-login feed-rt">转载</span>
        <span class="feed-not-login feed-cmt" data-nid="4a3abcf0-3159-11e2-83a5-782bcb43b7a3">
          回应</span><span data-type="photo" data-nid="4a3abcf0-3159-11e2-83a5-782bcb43b7a3" class="feed-not-login feed-nt">热度(2)</span>
        -->
+     </div>
+     <div class="feed-act">
+       <a title="喜欢" class="feed-not-login feed-fav {{#if is_fav}}faved{{else}}unfaved{{/if}}">喜欢</a>
      </div>
    </div></div><div class="feed-ft J_FeedFooter" style="display:none">
    <div class="feed-ft-bottom"></div>
