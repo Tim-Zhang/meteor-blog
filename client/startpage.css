@@ -5087,11 +5087,6 @@ a.post-source-api:hover {
 .feed-cmt-not-login.connectUserInfo .share input {
   margin-right: 5px;
 }
-.feed-comment .cmt-list li.first-cmt,
-.feed-notes .feed-notes-list li.first {
-  padding: 7px 20px;
-  border-top: none;
-}
 .feed-comment .cmt-at-list {
   display: none;
 }
