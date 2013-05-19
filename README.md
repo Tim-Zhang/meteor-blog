@@ -4,6 +4,8 @@ A Light Blog Powered by Meteor
 这是一个非常轻的博客，风格借鉴了点点网。
 开发这个博客本来是为了尝试Meteor，还有做DNSPod OAuth第一批用户，完善开发。
 
+#Demo
+[https://zhangzewen.me](https://zhangzewen.me) 
 #Features
 - 非常轻便，界面简介，管理简单。
 - 用时尚的Markdown书写文章
